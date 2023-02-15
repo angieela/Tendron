@@ -4,6 +4,8 @@ public class Cluster
 
     public Cluster(int len, int x, int y)
     {
-        // your code here
+        double angle = (Math.random()*6.28);
+         Tendril Bob = new Tendril(7);
+         Bob.show();
     }
 }
